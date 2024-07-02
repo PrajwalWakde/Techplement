@@ -156,7 +156,7 @@ public class QuizGenerator {
 
         int score = 0;
             
-	    for (int i = 0; i < questions.length; i++) {
+	    for (int i = 0; i < questions.length; i++) { 		//ierate array of questions
 	    Question question = questions[i];
 
             System.out.println("\nQuestion: " + question.getQuestionText()); 
